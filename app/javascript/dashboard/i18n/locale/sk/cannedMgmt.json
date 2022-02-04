@@ -1,0 +1,76 @@
+{
+  "CANNED_MGMT": {
+    "HEADER": "Uložené odpovede",
+    "HEADER_BTN_TXT": "Pridať Uloženú odpoveď",
+    "LOADING": "Uložené odpovede sa načítavajú",
+    "SEARCH_404": "Neexistujú žiadne položky, ktoré by zodpovedali tejto požiadavke",
+    "SIDEBAR_TXT": "<p><b>Uložené odpovede</b> </p><p> Uložené odpovede sú uložené šablóny odpovedí, ktoré môžete použiť na rýchle odoslanie odpovede na konverzáciu . </p><p> Na vytvorenie Uloženej odpovede kliknite na <b>Pridať uloženú odpoveď</b>. Existujúcu uloženú odpoveď môžete tiež upraviť alebo vymazať kliknutím na tlačidlo Upraviť alebo Vymazať </p><p>Uložené odpovede sa používajú pomocou <b>krátkych kódov</b>. Agenti môžu pristupovať k uloženým odpovediam počas chatu zadaním <b>'/'</b>, za ktorou nasleduje krátky kód. </p>",
+    "LIST": {
+      "404": "Žiadne uložené odpovede nie sú k dispozícii pre tento účet.",
+      "TITLE": "Manažuj uložené odpovede",
+      "DESC": "Uložené odpovede sú preddefinované šablóny odpovedí, ktoré možno použiť na rýchle odoslanie odpovedí na tikety.",
+      "TABLE_HEADER": [
+        "Krátky kód",
+        "Obsah",
+        "Akcie"
+      ]
+    },
+    "ADD": {
+      "TITLE": "Pridať Uloženú odpoveď",
+      "DESC": "Uložené odpovede sú uložené šablóny odpovedí, ktoré môžete použiť na rýchle odoslanie odpovede na konverzáciu .",
+      "CANCEL_BUTTON_TEXT": "Zrušiť",
+      "FORM": {
+        "SHORT_CODE": {
+          "LABEL": "Krátky kód",
+          "PLACEHOLDER": "Prosím zadajte krátky kód",
+          "ERROR": "Vyžaduje sa krátky kód"
+        },
+        "CONTENT": {
+          "LABEL": "Obsah",
+          "PLACEHOLDER": "Prosím vložte obsah",
+          "ERROR": "Obsah je vyžadovaný"
+        },
+        "SUBMIT": "Odoslať"
+      },
+      "API": {
+        "SUCCESS_MESSAGE": "Uložená odpoveď bola úspešne pridaná",
+        "ERROR_MESSAGE": "Nepodarilo sa pripojiť k serveru Woot, skúste to prosím neskôr"
+      }
+    },
+    "EDIT": {
+      "TITLE": "Upraviť Uloženú odpoveď",
+      "CANCEL_BUTTON_TEXT": "Zrušiť",
+      "FORM": {
+        "SHORT_CODE": {
+          "LABEL": "Krátky kód",
+          "PLACEHOLDER": "Prosím zadajte krátky kód",
+          "ERROR": "Vyžaduje sa krátky kód"
+        },
+        "CONTENT": {
+          "LABEL": "Obsah",
+          "PLACEHOLDER": "Prosím vložte obsah",
+          "ERROR": "Obsah je vyžadovaný"
+        },
+        "SUBMIT": "Odoslať"
+      },
+      "BUTTON_TEXT": "Upraviť",
+      "API": {
+        "SUCCESS_MESSAGE": "Uložená odpoveď bola úspešne upravená",
+        "ERROR_MESSAGE": "Nepodarilo sa pripojiť k serveru Woot, skúste to prosím neskôr"
+      }
+    },
+    "DELETE": {
+      "BUTTON_TEXT": "Vymazať",
+      "API": {
+        "SUCCESS_MESSAGE": "Uložená odpoveď bola úspešne vymazaná",
+        "ERROR_MESSAGE": "Nepodarilo sa pripojiť k serveru Woot, skúste to prosím neskôr"
+      },
+      "CONFIRM": {
+        "TITLE": "Potvrdiť vymazanie",
+        "MESSAGE": "Určite chcete vymazať ",
+        "YES": "Áno, vymazať ",
+        "NO": "Nie, ponechať "
+      }
+    }
+  }
+}
